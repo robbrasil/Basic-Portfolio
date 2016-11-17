@@ -1,0 +1,219 @@
+body{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	background-image: url("../images/background.png");
+    line-height: 160%;
+	}
+h1{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    width: 258px;
+    height: 67px;
+    background-color: #4aaaa5;
+    color: white;
+    margin-left: 116px;
+    margin-top: -46px;
+    margin-bottom: 0px;
+    font-size: 28px;
+    text-align: center;
+    padding-top: 29px;
+    padding-bottom: 0;
+    float: left;
+}
+
+h2 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+    color:#4aaaa5;
+    font-size: 29px;
+}
+img.leftpic{
+    float:left;
+    height:150px;
+    width: 46%;
+    margin: 10px;
+    margin-bottom: 15px
+    background-color: red;
+}
+img.rightpic{
+    float:right;
+    height:150px;
+    width: 46%;
+    margin: 10px;
+    margin-right: 0px;
+    margin-bottom: 15px;
+    background-color: blue;
+}
+div.imgtitleleft{
+    text-align: center;
+    font-weight: 300;
+    color: white;
+    padding-top: 13px;
+    margin-left: -240px;
+    float: left;
+    margin-top: 98px;
+    position: relative;
+    height: 42px;
+    width: 230px;
+    z-index: 2;
+    background-color: #4aaaa5;
+}
+div.imgtitleright{
+    text-align: center;
+    right: -240px;
+    font-weight: 300;
+    color: white;
+    padding-top: 13px;
+    margin-left: -240px;
+    float: right;
+    margin-top: 98px;
+    position: relative;
+    height: 42px;
+    width: 230px;
+    z-index: 2;
+    background-color: #4aaaa5;
+}
+div.top {
+	background-color: #ffffff;
+    padding: 31px;
+    border: 1px solid #cccccc;
+    height: 17px;
+    float: left;
+    width: 100%;
+    position: absolute;
+}
+.clearfix{
+    clear: both;
+}
+nav{
+	margin-top: -12px;
+    margin-right: 300px;
+    float:right;
+}
+a:link {
+    color: #9b9b9b;
+    text-decoration: none;
+}
+a:visited {
+    color: #9b9b9b;
+    text-decoration: none;
+}
+a:hover {
+    color: #4aaaa5;
+}
+a:active {
+    color: black;
+}
+div.connect{
+	color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: bold;
+    font-size: 20px;
+    float: right;
+    background-color: #ffffff;
+    height: 105px;
+    width: 178px;
+    padding: 34px;
+    text-align: center;
+    margin-right: 267px;
+    margin-top: 132px;
+    border: 1px solid #cccccc;
+}
+div.contactbox{
+    float: left;
+    font-weight: bold;
+    height: 371px;
+    width: 501px;
+    background-color: #ffffff;
+    padding: 36px 47px 32px 24px;
+    margin-right: 540px;
+    margin-left: 149px;
+    margin-top: -175px;
+    margin-bottom: 20px;
+    border: 1px solid #cccccc;
+}
+input{
+    width: 100%;
+    height:20px;
+}
+p{
+	color: #777777;
+    font-weight: 300;
+}
+hr{
+    display: block;
+    margin-top: -7px;
+    margin-bottom: 19px;
+    margin-left: auto;
+    margin-right: -20px;
+    border-style: solid;
+    border-width: 1px;
+    color: #cccccc;
+}
+hr.conline{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 19px;
+    margin-left: 0px;
+    margin-right: 4px;
+    border-style: solid;
+    border-width: 1px;
+    color: #cccccc;
+}
+hr.greenline{
+    float:left;
+    display: block;
+    margin-top: -48px;
+    margin-bottom: 0.5em;
+    width: 100%;
+    border-style: solid;
+    border-width: 3px;
+    color: #4aaaa5;
+}
+div.aboutme{
+	float: left;
+    font-weight: bold;
+    height: 371px;
+    width: 501px;
+    background-color: #ffffff;
+    padding: 36px 47px 32px 24px;
+    margin-right: 540px;
+    margin-left: 149px;
+    margin-top: -175px;
+    margin-bottom: 20px;
+    border: 1px solid #cccccc;
+}
+div.portfoliobox{
+    float: left;
+    font-weight: bold;
+    height: 500px;
+    width: 501px;
+    background-color: #ffffff;
+    padding: 36px 47px 32px 24px;
+    margin-right: 540px;
+    margin-left: 149px;
+    margin-top: -175px;
+    margin-bottom: 20px;
+    border: 1px solid #cccccc;
+   
+   
+}
+form{
+    width: 103%;
+    color: #777777;
+}
+#image{
+    float:left;
+    padding: 10px;
+    margin-left: -10px;
+}
+footer{
+    position: fixed;
+    font-size: 12px;
+    bottom: 0;
+    background-color: #777777;
+    width: 100%;
+    height: 57px;
+    margin-bottom: 0;
+    color: white;
+    text-align: center;
+    padding-top: 43px;
+    font-size: 12px;
+}

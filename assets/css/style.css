@@ -9,16 +9,30 @@ h1{
     height: 67px;
     background-color: #4aaaa5;
     color: white;
-    margin-left: 116px;
-    margin-top: -46px;
+    margin-left: 0;
+    margin-top: 0;
     margin-bottom: 0px;
     font-size: 28px;
     text-align: center;
     padding-top: 29px;
     padding-bottom: 0;
     float: left;
+    position: relative;
+    left: 117px;
+    top: -47px;
+    vertical-align: center;
 }
-
+#parent{
+    position: relative;
+}
+#child{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 30%;
+    width: 50%;
+    margin: -15% 0 0 -25%;
+}
 h2 {
 	font-family: 'Georgia', Times, Times New Roman, serif;
     color:#4aaaa5;
@@ -83,9 +97,10 @@ div.top {
     clear: both;
 }
 nav{
-	margin-top: -12px;
-    margin-right: 300px;
-    float:right;
+	float: left;
+    overflow: auto;
+    position: relative;
+    left: 468px;
 }
 a:link {
     color: #9b9b9b;
@@ -102,18 +117,19 @@ a:active {
     color: black;
 }
 div.connect{
-	color: #4aaaa5;
+    color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-weight: bold;
     font-size: 20px;
-    float: right;
+    float: left;
+    position: relative;
+    left: 747px;
+    top: 134px;
     background-color: #ffffff;
     height: 105px;
     width: 178px;
     padding: 34px;
     text-align: center;
-    margin-right: 267px;
-    margin-top: 132px;
     border: 1px solid #cccccc;
 }
 div.contactbox{
@@ -168,17 +184,16 @@ hr.greenline{
     color: #4aaaa5;
 }
 div.aboutme{
-	float: left;
+    float: left;
     font-weight: bold;
     height: 371px;
     width: 501px;
     background-color: #ffffff;
     padding: 36px 47px 32px 24px;
-    margin-right: 540px;
-    margin-left: 149px;
-    margin-top: -175px;
-    margin-bottom: 20px;
     border: 1px solid #cccccc;
+    position: relative;
+    left: 148px;
+    top: -41px;
 }
 div.portfoliobox{
     float: left;
